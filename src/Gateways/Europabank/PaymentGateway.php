@@ -4,8 +4,8 @@ namespace Spatie\Payment\Gateways\Europabank;
 
 use Spatie\Payment\PayableOrder;
 use Spatie\Payment\PaymentGateway as PaymentGatewayInterface;
-use Input;
-use View;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\View;
 
 class PaymentGateway implements PaymentGatewayInterface
 {
